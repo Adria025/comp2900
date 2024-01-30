@@ -1,2 +1,4 @@
 # comp2900
-Estructura de Datos
+Curso de __Estructura de Datos__
+__Autor John Doe__
+
