@@ -1,2 +1,3 @@
 print('Hola Mundo!')
-print('John Doe')
+mensaje = 'John Doe '
+print('mensaje')
