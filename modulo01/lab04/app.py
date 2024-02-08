@@ -9,5 +9,5 @@ for n in range(1,4):
 print('While #1')
 n = 0
 while (n < 4):
-    n = n + 1
     print(n)
+    n = n + 1
