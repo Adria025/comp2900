@@ -1,8 +1,12 @@
-
 def age():
+    global currentYear
+    global birthYear
+    birthYear = 2020
     currentAge = currentYear - birthYear
-    print(f'your age is ')
+    print(f'You age is {currentAge}')
 
+currentYear = int (input ('Current Year: '))
+birthYear = int (input ('Birth Year: '))
 
-currentYear = input ('Current Year: ')
-birthYear = input ('Current Year: ')
+age()
+print(birthYear)
