@@ -1,6 +1,6 @@
 import array
 
-aNumber = array.array('i')
+aNumber = array.array('i') * 3
 
 for i in range(1, 4): #from 1 to 4
     number = int(input('Enter a number: '))
@@ -8,6 +8,8 @@ for i in range(1, 4): #from 1 to 4
 
 for i in range(3): #from 0 to 4
     print(f'Indice {i} - Valor {aNumber[i]}')
+
+aNumber.sort()
 
 for n in aNumber:
     print(f'Valor {n}')
